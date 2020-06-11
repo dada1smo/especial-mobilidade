@@ -1,0 +1,8 @@
+@import "./src/styles/custom-grid.scss";
+
+.mainContainer {
+	@include make-container();
+	@include make-container-max-widths;
+
+	margin-left: 0;
+}
