@@ -1,0 +1,23 @@
+@import "../styles/utilities";
+
+.container {
+  background-color: map-get($theme, primary);
+
+  @include make-row($gutter: 1rem);
+
+  .text {
+    @include make-col(4, $columns: $grid-columns);
+
+    @include media-breakpoint-down(md) {
+      @include make-col(12);
+    }
+  }
+
+  .table {
+    @include make-col(8, $columns: $grid-columns);
+
+    @include media-breakpoint-down(md) {
+      @include make-col(12);
+    }
+  }
+}

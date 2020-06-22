@@ -16,16 +16,16 @@ module.exports = {
         fonts: { 
           google: [ 
             { 
-              family: "Red+Hat+Display", 
-              variants: ["900"], 
+              family: "Big+Shoulders+Text", 
+              variants: ["400,500,700"], 
             }, 
             { 
-              family: "IBM+Plex+Mono", 
-              variants: ["400"], 
+              family: "Space+Mono", 
+              variants: ["400,400i,500,500i,700,700i"], 
             }, 
             { 
-              family: "IBM+Plex+Sans", 
-              variants: ["400", "400i", "500"], 
+              family: "Literata", 
+              variants: ["400,400i,700,700i"], 
             }, 
           ], 
         }, 
