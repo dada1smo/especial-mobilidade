@@ -1,0 +1,24 @@
+@import "../../styles/utilities";
+
+.mapContainer {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 4rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  svg {
+    width: 800px;
+    height: auto;
+  }
+
+  a {
+    color: map-get($theme, secondary);
+    font-weight: 500;
+    font-size: 1.25rem;
+    font-family: "Literata", serif;
+    text-transform: none;
+  }
+}

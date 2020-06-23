@@ -5,9 +5,10 @@
   min-width: 100%;
   min-height: 100vh;
   overflow: hidden;
+  z-index: 100;
 
   .homeVideo {
-    min-width: 100%;
+    width: 100%;
     min-height: 100%;
     position: absolute;
     top: 0;

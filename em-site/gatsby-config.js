@@ -35,6 +35,14 @@ module.exports = {
         //usePreconnect: false, 
       }, 
     }, 
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: [/\.inline\.svg$/, /\.map\.svg$/]
+        },
+      },
+    },
   ], 
 } 
 

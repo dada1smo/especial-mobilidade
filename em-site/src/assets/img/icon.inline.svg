@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 192 136" style="enable-background:new 0 0 192 136;" xml:space="preserve">
+<style type="text/css">
+	.piloto{fill:#216B96!important;}
+</style>
+<g id="Layer_2_1_">
+	<g id="Layer_1-2">
+		<g id="plano_piloto">
+			<path class="piloto" d="M88,87c0,0-15.5-2.8-34-13C34,63,12,47,12,47L0,66c0,0,31,25,54,34s37,10,37,10L88,87z"/>
+			<path class="piloto" d="M104,87c0,0,15.5-2.8,34-13c20-11,42-27,42-27l11,6l1,13c0,0-31,25-54,34s-37,10-37,10L104,87z"/>
+			<polygon class="piloto" points="100,73 100,61 97,53 97,0 95,0 95,53 92,61 92,73 88,87 91.5,87 95,87 97,87 99.3,87 104,87 			"/>
+			<polygon class="piloto" points="91,110 91,131 96,136 101,131 101,110 			"/>
+		</g>
+	</g>
+</g>
+</svg>
