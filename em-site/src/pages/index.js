@@ -1,9 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 import Nav from "../components/nav"
-import Hero from "../components/_home"
-import Intro from "../components/content/_intro"
-import C1 from "../components/content/_c1"
+import Hero from "../components/partials/_home"
+import Intro from "../components/partials/_intro"
+import Slide from "../components/partials/slide"
+import Content from "../content/content.yaml"
 import Map1 from "../components/maps/_map1"
 import Map2 from "../components/maps/_map2"
 
@@ -16,8 +17,9 @@ export default function Home() {
       <Layout>
         <div className="mainContainer">
           <section className="content">
-          <Intro></Intro>
-          <C1></C1>
+            <Intro></Intro>
+            <Slide id={Content.c1.id} content={Content.c1.content} />
+            <Slide id={Content.c2.id} content={Content.c2.content} />
           </section>
 
           <section className="map">

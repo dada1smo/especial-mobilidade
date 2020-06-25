@@ -10,6 +10,14 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/src/content`,
+      },
+    },
+    `gatsby-transformer-remark`,
     { 
       resolve: `gatsby-plugin-webfonts`, 
       options: { 

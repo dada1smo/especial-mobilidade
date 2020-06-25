@@ -1,0 +1,12 @@
+c1:
+  order: 1
+  id: c1
+  content:
+    - "A cidade planejada em formato de avião é toda setorizada."
+    - "Existe o setor de indústrias, o setor bancário, o setor hoteleiro, setores residenciais, setores comerciais, setores de mansões e assim por diante."
+
+c2:
+  order: 2
+  id: c2
+  content:
+    - "Tudo que está dentro do desenho de avião é considerado Plano Piloto, que foi construído em quatro anos - de 1954 a 1960."

@@ -1,6 +1,6 @@
 import React from "react"
 import homeStyles from "./home.module.scss"
-import homeVideo from "../assets/videos/mobilidade.mp4"
+import homeVideo from "../../assets/videos/mobilidade.mp4"
 
 const Hero= () => {
 
