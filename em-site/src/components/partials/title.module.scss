@@ -1,11 +1,22 @@
 @import "../../styles/utilities";
 
-.contentContainer {
+.titleContainer {
   display: flex;
   flex-direction: column;
   height: 120vh;
   justify-content: center;
   padding: 0 4rem;
+
+  img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    color: map-get($theme, primary-dark);
+  }
 
   svg {
     width: 120px;
@@ -17,22 +28,7 @@
     color: map-get($theme, secondary);
     font-weight: 500;
     font-size: 1.25rem;
-    font-family: "Literata", serif;
+    font-family: 'Literata', serif;
     text-transform: none;
-  }
-
-  p {
-    margin-bottom: 2rem;
-  }
-}
-
-.quoteContainer {
-  display: flex;
-  flex-direction: column;
-  height: 60vh;
-  padding: 0 4rem;
-
-  h5 {
-    text-align: right;
   }
 }

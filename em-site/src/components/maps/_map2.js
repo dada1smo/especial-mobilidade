@@ -4,8 +4,8 @@ import mapStyles from "./map.module.scss"
 import M2 from "../../assets/img/m2.map.svg";
 
 const Map2= () => {
-  const { scrollY} = useViewportScroll()
-  const transitionY = useTransform(scrollY, [1300, 1500, 1700], [0, 1, 1])
+  const { scrollYProgress } = useViewportScroll()
+  const transitionY = useTransform(scrollYProgress, [0.035, 0.04, 0.05, 0.07], [0, 1, 1, 0])
 
   return (
     <div className={mapStyles.mapContainer}>

@@ -15,7 +15,7 @@ body {
 }
 
 .noScroll {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .mainContainer {
@@ -26,10 +26,62 @@ body {
   @include make-row($gutter: 1rem);
 
   .content {
+    position: relative;
+    z-index: 10;
+
     @include make-col(5, $columns: $grid-columns);
 
     @include media-breakpoint-down(md) {
       @include make-col(12);
+    }
+  }
+
+  .comparative {
+    position: relative;
+    z-index: 10;
+
+    @include make-col(12, $columns: $grid-columns);
+
+    @include media-breakpoint-down(md) {
+      @include make-col(12);
+    }
+
+    .half {
+      @include make-row($gutter: 1rem);
+
+      h3 {
+        text-align: center;
+        margin-bottom: 3rem;
+        width: 100%;
+        color: map-get($theme, secondary);
+      }
+
+      .col {
+        @include make-col(6, $columns: $grid-columns);
+
+        @include media-breakpoint-down(md) {
+          @include make-col(12);
+        }
+      }
+    }
+
+    .third {
+      @include make-row($gutter: 1rem);
+
+      h3 {
+        text-align: center;
+        margin-bottom: 3rem;
+        width: 100%;
+        color: map-get($theme, secondary);
+      }
+
+      .col {
+        @include make-col(4, $columns: $grid-columns);
+
+        @include media-breakpoint-down(md) {
+          @include make-col(12);
+        }
+      }
     }
   }
 
@@ -38,11 +90,32 @@ body {
     top: 0;
     right: 0;
     height: 100vh;
+    width: 100%;
+  }
+}
 
-    @include make-col(7, $columns: $grid-columns);
+footer {
+  width: 100%;
+  height: 70vh;
+  background-color: map-get($theme, dark);
+}
 
-    @include media-breakpoint-down(md) {
-      @include make-col(12);
-    }
+.quote {
+  font-weight: 600;
+
+  &:before {
+    content: '"';
+  }
+
+  &:after {
+    content: '"';
+  }
+}
+
+.quote-source {
+  color: map-get($theme, primary-dark);
+
+  &:before {
+    content: "—";
   }
 }

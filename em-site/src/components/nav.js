@@ -4,8 +4,9 @@ import { motion, useViewportScroll, useTransform } from "framer-motion"
 import navStyles from "./nav.module.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../utils/fontawesome"
+import Content from "../content/content.yaml"
 
-const Nav = () => {
+function Nav() {
   const { scrollY } = useViewportScroll()
   const bgY = useTransform(
     scrollY,
@@ -40,9 +41,7 @@ const Nav = () => {
           style={{ backgroundColor: bgY, borderBottom: borderY }}
           transition={{ ease: "easeInOut" }}
         >
-          <button
-            onClick={(toggle)}
-          >
+          <button onClick={toggle}>
             <FontAwesomeIcon icon="bars" className="fa-lg" />
           </button>
           <div className={navStyles.social}>
@@ -71,14 +70,29 @@ const Nav = () => {
         initial={false}
       >
         <div className={navStyles.close}>
-          <button
-            onClick={(toggle)}
-          >
+          <button onClick={toggle}>
             <FontAwesomeIcon icon="times" className="fa-lg" />
           </button>
         </div>
         <ul>
-          <li>Teste</li>
+          <li>
+            <a href="#intro" onClick={toggle}>Introdução</a>
+          </li>
+          <li>
+            <a href="#s2" onClick={toggle}>{Content.s2.title}</a>
+          </li>
+          <li>
+            <a href="#s3" onClick={toggle}>{Content.s3.title}</a>
+          </li>
+          <li>
+            <a href="#s4" onClick={toggle}>{Content.s4.title}</a>
+          </li>
+          <li>
+            <a href="#s5" onClick={toggle}>{Content.s5.title}</a>
+          </li>
+          <li>
+            <a href="#s6" onClick={toggle}>{Content.s6.title}</a>
+          </li>
         </ul>
       </motion.div>
     </div>
@@ -86,7 +100,7 @@ const Nav = () => {
 }
 
 const clickOutsideConfig = {
-  handleClickOutside: () => Nav.handleClickOutside
-};
+  handleClickOutside: () => Nav.handleClickOutside,
+}
 
-export default onClickOutside(Nav, clickOutsideConfig);
+export default onClickOutside(Nav, clickOutsideConfig)

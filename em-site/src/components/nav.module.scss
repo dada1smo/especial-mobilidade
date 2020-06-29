@@ -66,6 +66,7 @@
 
     ul {
       list-style: none;
+      padding-inline-start: 0;
 
       li {
         font-family: "Space Mono", sans-serif;
@@ -74,6 +75,11 @@
         font-size: 1em;
         text-transform: uppercase;
         color: map-get($theme, secondary);
+        margin-bottom: 1rem;
+
+        a {
+          color: map-get($theme, secondary);
+        }
       }
     }
 
