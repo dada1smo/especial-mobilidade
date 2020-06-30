@@ -46,8 +46,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `img`,
-        path: `${__dirname}/src/assets/img/`
+        name: `title`,
+        path: `${__dirname}/src/assets/img/title`
       }
     },
     `gatsby-transformer-sharp`,

@@ -7,9 +7,8 @@
   justify-content: center;
   padding: 0 4rem;
 
-  img {
-    width: 100%;
-    max-width: 180px;
+  .imgContainer {
+    width: 220px;
     height: auto;
   }
 
@@ -28,7 +27,7 @@
     color: map-get($theme, secondary);
     font-weight: 500;
     font-size: 1.25rem;
-    font-family: 'Literata', serif;
+    font-family: "Literata", serif;
     text-transform: none;
   }
 }
