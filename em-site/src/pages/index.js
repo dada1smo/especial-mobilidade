@@ -7,9 +7,9 @@ import Slide from "../components/partials/slide"
 import Title from "../components/partials/title"
 import Quote from "../components/partials/quote"
 import Content from "../content/content.yaml"
-import s2Img from "../assets/img/title/s2_title.png"
 import Map1 from "../components/maps/_map1"
 import Map2 from "../components/maps/_map2"
+import SideImages from "../components/maps/_images"
 
 export default function Home() {
   return (
@@ -30,10 +30,9 @@ export default function Home() {
             <Slide id={Content.s1.c5.id} content={Content.s1.c5.content} />
             <Slide id={Content.s1.c6.id} content={Content.s1.c6.content} />
             <Slide id={Content.s1.c7.id} content={Content.s1.c7.content} />
-            <Slide id={Content.s1.c8.id} content={Content.s1.c8.content} />
 
             {/* s2 */}
-            <Title id={Content.s2.id} title={Content.s2.title} />
+            <Title id={Content.s2.id} title={Content.s2.title} imgSrc={"s2_title.png"} />
             <Slide id={Content.s2.c1.id} content={Content.s2.c1.content} />
             <Slide id={Content.s2.c2.id} content={Content.s2.c2.content} />
             <Slide id={Content.s2.c3.id} content={Content.s2.c3.content} />
@@ -48,13 +47,13 @@ export default function Home() {
             <Slide id={Content.s2.c8.id} content={Content.s2.c8.content} />
 
             {/* s3 */}
-            <Title id={Content.s3.id} title={Content.s3.title} />
+            <Title id={Content.s3.id} title={Content.s3.title} imgSrc={"s2_title.png"} />
             <Slide id={Content.s3.c1.id} content={Content.s3.c1.content} />
             <Slide id={Content.s3.c2.id} content={Content.s3.c2.content} />
             <Slide id={Content.s3.c3.id} content={Content.s3.c3.content} />
 
             {/* s4 */}
-            <Title id={Content.s4.id} title={Content.s4.title} />
+            <Title id={Content.s4.id} title={Content.s4.title} imgSrc={"s2_title.png"} />
             <Slide id={Content.s4.c1.id} content={Content.s4.c1.content} />
             <Slide id={Content.s4.c2.id} content={Content.s4.c2.content} />
             <Slide id={Content.s4.c3.id} content={Content.s4.c3.content} />
@@ -85,7 +84,7 @@ export default function Home() {
             <Slide id={Content.s4.c6.id} content={Content.s4.c6.content} />
 
             {/* s5 */}
-            <Title id={Content.s5.id} title={Content.s5.title} />
+            <Title id={Content.s5.id} title={Content.s5.title} imgSrc={"s2_title.png"} />
             <Slide id={Content.s5.c1.id} content={Content.s5.c1.content} />
             <Slide id={Content.s5.c2.id} content={Content.s5.c2.content} />
             <Slide id={Content.s5.c3.id} content={Content.s5.c3.content} />
@@ -119,7 +118,7 @@ export default function Home() {
 
           <section className="content">
             {/* s6 */}
-            <Title id={Content.s6.id} title={Content.s6.title} />
+            <Title id={Content.s6.id} title={Content.s6.title} imgSrc={"s2_title.png"} />
             <Slide id={Content.s6.c1.id} content={Content.s6.c1.content} />
             <Slide id={Content.s6.c2.id} content={Content.s6.c2.content} />
             <Slide id={Content.s6.c3.id} content={Content.s6.c3.content} />
@@ -134,6 +133,7 @@ export default function Home() {
           <section className="map">
             <Map1></Map1>
             <Map2></Map2>
+            <SideImages imgSrc={"s6_i1.png"} imgSrc2={"s6_i2.png"} />
           </section>
         </div>
       </Layout>

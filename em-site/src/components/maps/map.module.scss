@@ -21,4 +21,45 @@
     font-family: "Literata", serif;
     text-transform: none;
   }
+
+  .imgContainer {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+    }
+
+    .col {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+      margin-bottom: 1rem;
+
+      @include media-breakpoint-down(md) {
+        flex-direction: row;
+      }
+
+      small {
+        color: map-get($theme, primary-dark);
+        margin-top: 0.5rem;
+        width: 350px;
+        text-align: right;
+      }
+
+      .wrapper {
+        width: 350px;
+        height: auto;
+
+        picture {
+          img {
+            border: 5px solid #ffffff;
+          }
+        }
+      }
+    }
+  }
 }

@@ -43,11 +43,6 @@ s1:
     id: s1c7
     content:
       - "O mesmo estudo mostra que a maior parte dos entrevistados espera de 30 minutos a uma hora para embarcar no ônibus e avalia como ruim ou péssimo o tempo de espera e a pontualidade do veículo para chegar na parada."
-
-  c8:
-    order: 8
-    id: s1c8
-    content:
       - '"Morar a 30 ou 40 km de distância não é tão problemático, porque você gastaria 15 minutos em um sistema eficiente. A questão fundamental é o tempo de deslocamento."'
 
 s2:
