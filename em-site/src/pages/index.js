@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Nav from "../components/nav"
+import Progress from "../components/partials/progress"
 import Hero from "../components/partials/_home"
 import Intro from "../components/partials/_intro"
 import Slide from "../components/partials/slide"
@@ -16,6 +17,7 @@ export default function Home() {
     <div>
       <Nav></Nav>
       <Hero></Hero>
+      <Progress />
 
       <Layout>
         <div className="mainContainer">
