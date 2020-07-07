@@ -203,8 +203,28 @@ export default function Home() {
               scrollValue={[0, 1, 1, 0]}
             />
             <Attached
+              imgSrc={"s2c1.png"}
+              scrollPosition={[0.240, 0.245, 0.255, 0.260]}
+              scrollValue={[0, 1, 1, 0]}
+            />
+            <Attached
+              imgSrc={"s2c2.png"}
+              scrollPosition={[0.265, 0.270, 0.280, 0.285]}
+              scrollValue={[0, 1, 1, 0]}
+            />
+            <Attached
+              imgSrc={"s2c3.png"}
+              scrollPosition={[0.290, 0.295, 0.303, 0.307]}
+              scrollValue={[0, 1, 1, 0]}
+            />
+            <Attached
+              imgSrc={"s2c4.png"}
+              scrollPosition={[0.310, 0.313, 0.322, 0.325]}
+              scrollValue={[0, 1, 1, 0]}
+            />
+            <Attached
               imgSrc={"s2c5.png"}
-              scrollPosition={[0.330, 0.335, 0.345, 0.350]}
+              scrollPosition={[0.332, 0.335, 0.345, 0.350]}
               scrollValue={[0, 1, 1, 0]}
             />
             <Attached
