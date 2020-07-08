@@ -8,6 +8,7 @@ function Quote(props) {
       <div className={contentStyles.quoteContainer} id={props.id}>
         <h4>{props.quote}</h4>
         <h5>{Parser(props.source)}</h5>
+        <small>{Parser(props.qualifications)}</small>
       </div>
     </div>
   )

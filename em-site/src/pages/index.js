@@ -31,6 +31,12 @@ export default function Home() {
             <Slide id={Content.s1.c5.id} content={Content.s1.c5.content} />
             <Slide id={Content.s1.c6.id} content={Content.s1.c6.content} />
             <Slide id={Content.s1.c7.id} content={Content.s1.c7.content} />
+            <Quote
+              id={Content.s1.c8.id}
+              quote={Content.s1.c8.quote}
+              source={Content.s1.c8.source}
+              qualifications={Content.s1.c8.qualifications}
+            />
 
             {/* s2 */}
             <Title
@@ -45,12 +51,14 @@ export default function Home() {
               id={Content.s2.c4.id}
               quote={Content.s2.c4.quote}
               source={Content.s2.c4.source}
+              qualifications={Content.s2.c4.qualifications}
             />
             <Slide id={Content.s2.c5.id} content={Content.s2.c5.content} />
             <Slide id={Content.s2.c6.id} content={Content.s2.c6.content} />
             <Slide id={Content.s2.c7.id} content={Content.s2.c7.content} />
             <Slide id={Content.s2.c8.id} content={Content.s2.c8.content} />
             <Slide id={Content.s2.c9.id} content={Content.s2.c9.content} />
+            <Slide id={Content.s2.c10.id} content={Content.s2.c10.content} />
 
             {/* s3 */}
             <Title
@@ -82,12 +90,14 @@ export default function Home() {
                 <Quote
                   quote={Content.s4.c5.h1.quote}
                   source={Content.s4.c5.h1.source}
+                  qualifications={Content.s2.c4.qualifications}
                 />
               </div>
               <div className="col">
                 <Quote
                   quote={Content.s4.c5.h2.quote}
                   source={Content.s4.c5.h2.source}
+                  qualifications={Content.s2.c4.qualifications}
                 />
               </div>
             </div>
@@ -117,18 +127,21 @@ export default function Home() {
                 <Quote
                   quote={Content.s5.c5.h1.quote}
                   source={Content.s5.c5.h1.source}
+                  qualifications={Content.s2.c4.qualifications}
                 />
               </div>
               <div className="col">
                 <Quote
                   quote={Content.s5.c5.h2.quote}
                   source={Content.s5.c5.h2.source}
+                  qualifications={Content.s2.c4.qualifications}
                 />
               </div>
               <div className="col">
                 <Quote
                   quote={Content.s5.c5.h3.quote}
                   source={Content.s5.c5.h3.source}
+                  qualifications={Content.s2.c4.qualifications}
                 />
               </div>
             </div>
@@ -162,17 +175,17 @@ export default function Home() {
             />
             <Attached
               imgSrc={"s1c1.png"}
-              scrollPosition={[0.040, 0.045, 0.058, 0.062]}
+              scrollPosition={[0.04, 0.045, 0.058, 0.062]}
               scrollValue={[0, 1, 1, 0]}
             />
             <Attached
               imgSrc={"s1c2.png"}
-              scrollPosition={[0.070, 0.075, 0.235, 0.238]}
+              scrollPosition={[0.07, 0.075, 0.235, 0.238]}
               scrollValue={[0, 1, 1, 0]}
             />
             <Attached
               imgSrc={"s1c3.png"}
-              scrollPosition={[0.107, 0.110, 0.120, 0.128]}
+              scrollPosition={[0.107, 0.11, 0.12, 0.128]}
               scrollValue={[0, 1, 1, 0]}
             />
             <Attached
@@ -221,7 +234,7 @@ export default function Home() {
               imgSrc={"s2c4.png"}
               scrollPosition={[0.362, 0.365, 0.375, 0.378]}
               scrollValue={[0, 1, 1, 0]}
-            /> 
+            />
             <Attached
               imgSrc={"s2c5.png"}
               scrollPosition={[0.382, 0.385, 0.395, 0.398]}

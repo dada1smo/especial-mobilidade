@@ -14,9 +14,9 @@
   }
 
   a {
-    color: map-get($theme, secondary);
+    color: map-get($theme, primary-dark);
     font-weight: 500;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-family: "Literata", serif;
     text-transform: none;
   }
@@ -33,6 +33,10 @@
   padding: 0 4rem;
 
   h5 {
+    text-align: right;
+  }
+
+  small {
     text-align: right;
   }
 }

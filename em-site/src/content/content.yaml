@@ -10,8 +10,8 @@ s1:
     order: 2
     id: s1c2
     content:
-      - "Tudo que está dentro do desenho de avião é considerado Plano Piloto, que foi construído em quatro anos - de 1954 a 1960."
-      - "Os 60 mil operários que trabalharam na construção de Brasília moravam nas chamadas “cidades dormitório”, ou Regiões Administrativas (RAs), que, ao longo dos anos, foram crescendo e, atualmente, totalizam mais de 33."
+      - "Tudo que está dentro do desenho de avião (em amarelo) é considerado Plano Piloto, que foi construído em quatro anos — de 1954 a 1960."
+      - "Os 60 mil operários que trabalharam na construção de Brasília moravam nas chamadas “cidades dormitório”, ou Regiões Administrativas (RAs), que, ao longo dos anos, foram crescendo e, atualmente, totalizam 33."
 
   c3:
     order: 3
@@ -23,7 +23,7 @@ s1:
     order: 4
     id: s1c4
     content:
-      - "Como o preço do m2 nessa região é caro, os trabalhadores, assim como os candangos em 1960, passam o dia no Plano e à noite retornam para suas RA’s, que ficam, em média, a 30 km de distância."
+      - "Como o preço do m² nessa região é caro, os trabalhadores, assim como os candangos em 1960, passam o dia no Plano e à noite retornam para suas RA’s, que ficam, em média, a 30 km de distância."
       - "As localidades mais afastadas do “avião”, geralmente, são as mais baratas."
 
   c5:
@@ -43,7 +43,13 @@ s1:
     id: s1c7
     content:
       - "O mesmo estudo mostra que a maior parte dos entrevistados espera de 30 minutos a uma hora para embarcar no ônibus e avalia como ruim ou péssimo o tempo de espera e a pontualidade do veículo para chegar na parada."
-      - '"Morar a 30 ou 40 km de distância não é tão problemático, porque você gastaria 15 minutos em um sistema eficiente. A questão fundamental é o tempo de deslocamento."'
+
+  c8:
+    order: 4
+    id: s2c4
+    quote: '“Morar a 30 ou 40 km de distância não é tão problemático, porque você gastaria 15 minutos em um sistema eficiente. A questão fundamental é o tempo de deslocamento.”'
+    source: <span class="quote-source">Benny Schvarsberg</span>
+    qualifications: Arquiteto (UFF/RJ), Mestre em Planejamento Urbano e Regional (IPPUR/UFRJ) e Doutor em Sociologia Urbana (UnB).
 
 s2:
   id: s2
@@ -71,8 +77,9 @@ s2:
   c4:
     order: 4
     id: s2c4
-    quote: '"Pensando no corpo humano, temos veias pequenas que permitem a circulação do sangue na nossa mão e permitem que ela se movimente. Se elas não estivessem funcionando, perderíamos a função do braço. Para ter um braço forte, preciso de dedos que possam pegar as coisas. Os dedos são como os transportes dentro das RAs, que pegam as pessoas para trabalharem e, à noite, fazem o percurso de retorno para casa. Isso é capilaridade."'
+    quote: '“Pensando no corpo humano, temos veias pequenas que permitem a circulação do sangue na nossa mão e permitem que ela se movimente. Se elas não estivessem funcionando, perderíamos a função do braço. Para ter um braço forte, preciso de dedos que possam pegar as coisas. Os dedos são como os transportes dentro das RAs, que pegam as pessoas para trabalharem e, à noite, fazem o percurso de retorno para casa. Isso é capilaridade.”'
     source: <span class="quote-source">Pastor Willy</span>
+    qualifications: Coordenador do Centro Interdisciplinar de Estudos em Transportes (Ceftru), engenheiro civil (Universidad Nacional de San Augustin), mestre em transporte urbano (UnB) e doutor em engenharia de transportes (USP).
 
   c5:
     order: 5
@@ -92,15 +99,20 @@ s2:
     id: s2c7
     content:
       - 'De acordo com o coordenador do Centro Interdisciplinar de Estudos em Transportes (Ceftru), professor Pastor Willy Gonzales, a segurança pública urbana faz parte do sistema de transporte público, mas, no DF, eles andam descolados. <span class="quote">À medida em que eu me sinto seguro para estar na parada, eu vou esperar. Mas, se eu não tenho segurança, vou procurar aplicativo</span>, explica, referindo-se a plataformas como Uber e 99Pop. <span class="quote">Nas regiões mais periféricas, a infraestrutura para o transporte público é deficitária — parada sem iluminação, sem espaço adequado para esperar o veículo, sem baia para o ônibus parar e sem segurança para os passageiros esperarem</span>, acrescenta.'
-      - 'De acordo com o professor, a falta de capilaridade agrava o problema. <span class="quote">As pessoas que moram longe usam muito o transporte clandestino porque não têm opção. Ano passado, houve muitas mortes por causa disso. Precisamos de capilaridade no início e no final da viagem.</span>'
 
   c8:
+      order: 8
+      id: s2c8
+      content:
+        - 'De acordo com o professor, a falta de capilaridade agrava o problema. <span class="quote">As pessoas que moram longe usam muito o transporte clandestino porque não têm opção. Ano passado, houve muitas mortes por causa disso. Precisamos de capilaridade no início e no final da viagem.</span>'
+
+  c9:
     order: 8
     id: s2c8
     content:
       - "O preço da passagem foi o segundo indicador com pior avaliação na pesquisa “Como anda meu ônibus” — 45,37% dos entrevistados consideram péssimo e 25,87%, ruim. Este ano, houve aumento de 10% nos valores, que começou a valer em 13 de janeiro."
 
-  c9:
+  c10:
     order: 9
     id: s2c9
     content:
