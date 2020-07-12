@@ -10,8 +10,12 @@ import Quote from "../components/partials/quote"
 import Content from "../content/content.yaml"
 import SideImages from "../components/maps/_images"
 import Attached from "../components/maps/_attached"
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 export default function Home() {
+
+  const breakpoints = useBreakpoint();
+
   return (
     <div>
       <Nav></Nav>
@@ -164,103 +168,104 @@ export default function Home() {
               source={Content.s6.c5.source}
             />
           </section> */}
+          {breakpoints.l ? (
+            <section className="map">
+              {/* <SideImages imgSrc={"s6_i1.png"} imgSrc2={"s6_i2.png"} /> */}
+              {/* s1 */}
+              <Attached
+                imgSrc={"intro.png"}
+                scrollPosition={[0.017, 0.022, 0.042, 0.062]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s1c1.png"}
+                scrollPosition={[0.04, 0.045, 0.058, 0.062]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s1c2.png"}
+                scrollPosition={[0.07, 0.075, 0.235, 0.238]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s1c3.png"}
+                scrollPosition={[0.107, 0.11, 0.12, 0.128]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s1c4.png"}
+                scrollPosition={[0.132, 0.135, 0.145, 0.148]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s1c5.png"}
+                scrollPosition={[0.162, 0.165, 0.175, 0.178]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s1c6.png"}
+                scrollPosition={[0.192, 0.195, 0.205, 0.208]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s1c7.png"}
+                scrollPosition={[0.222, 0.225, 0.235, 0.238]}
+                scrollValue={[0, 1, 1, 0]}
+              />
 
-          <section className="map">
-            {/* <SideImages imgSrc={"s6_i1.png"} imgSrc2={"s6_i2.png"} /> */}
-            {/* s1 */}
-            <Attached
-              imgSrc={"intro.png"}
-              scrollPosition={[0.017, 0.022, 0.042, 0.062]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s1c1.png"}
-              scrollPosition={[0.04, 0.045, 0.058, 0.062]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s1c2.png"}
-              scrollPosition={[0.07, 0.075, 0.235, 0.238]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s1c3.png"}
-              scrollPosition={[0.107, 0.11, 0.12, 0.128]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s1c4.png"}
-              scrollPosition={[0.132, 0.135, 0.145, 0.148]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s1c5.png"}
-              scrollPosition={[0.162, 0.165, 0.175, 0.178]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s1c6.png"}
-              scrollPosition={[0.192, 0.195, 0.205, 0.208]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s1c7.png"}
-              scrollPosition={[0.222, 0.225, 0.235, 0.238]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-
-            {/* s2 */}
-            <Attached
-              imgSrc={"s1c2.png"}
-              scrollPosition={[0.282, 0.285, 0.515, 0.518]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s2c1.png"}
-              scrollPosition={[0.282, 0.285, 0.325, 0.328]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s2c2.png"}
-              scrollPosition={[0.312, 0.315, 0.325, 0.328]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s2c3.png"}
-              scrollPosition={[0.342, 0.345, 0.355, 0.358]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s2c4.png"}
-              scrollPosition={[0.362, 0.365, 0.375, 0.378]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s2c5.png"}
-              scrollPosition={[0.382, 0.385, 0.395, 0.398]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s2c6.png"}
-              scrollPosition={[0.412, 0.415, 0.425, 0.428]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s2c7.png"}
-              scrollPosition={[0.442, 0.445, 0.455, 0.458]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s2c8.png"}
-              scrollPosition={[0.472, 0.475, 0.485, 0.488]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-            <Attached
-              imgSrc={"s2c9.png"}
-              scrollPosition={[0.502, 0.505, 0.515, 0.518]}
-              scrollValue={[0, 1, 1, 0]}
-            />
-          </section>
+              {/* s2 */}
+              <Attached
+                imgSrc={"s1c2.png"}
+                scrollPosition={[0.282, 0.285, 0.515, 0.518]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s2c1.png"}
+                scrollPosition={[0.282, 0.285, 0.325, 0.328]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s2c2.png"}
+                scrollPosition={[0.312, 0.315, 0.325, 0.328]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s2c3.png"}
+                scrollPosition={[0.342, 0.345, 0.355, 0.358]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s2c4.png"}
+                scrollPosition={[0.362, 0.365, 0.375, 0.378]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s2c5.png"}
+                scrollPosition={[0.382, 0.385, 0.395, 0.398]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s2c6.png"}
+                scrollPosition={[0.412, 0.415, 0.425, 0.428]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s2c7.png"}
+                scrollPosition={[0.442, 0.445, 0.455, 0.458]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s2c8.png"}
+                scrollPosition={[0.472, 0.475, 0.485, 0.488]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+              <Attached
+                imgSrc={"s2c9.png"}
+                scrollPosition={[0.502, 0.505, 0.515, 0.518]}
+                scrollValue={[0, 1, 1, 0]}
+              />
+            </section>
+          ) : null}
         </div>
       </Layout>
 

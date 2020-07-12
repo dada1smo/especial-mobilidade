@@ -1,5 +1,9 @@
 @import "../styles/utilities";
 
 .pageLayout {
-	margin: 1rem 2rem;
+  margin: 1rem 2rem;
+
+  @include media-breakpoint-down(sm) {
+    margin: 0.5rem 1rem;
+  }
 }

@@ -7,6 +7,10 @@
   justify-content: center;
   padding: 0 4rem;
 
+  @include media-breakpoint-down(sm) {
+    padding: 0rem;
+  }
+
   svg {
     width: 120px;
     height: auto;
@@ -23,6 +27,11 @@
 
   p {
     margin-bottom: 2rem;
+
+    @include media-breakpoint-down(sm) {
+      padding: 0.5rem;
+      background-color: rgba(129, 191, 226, 0.7);
+    }
   }
 }
 
@@ -32,11 +41,33 @@
   height: 60vh;
   padding: 0 4rem;
 
+  @include media-breakpoint-down(sm) {
+    height: 120vh;
+    padding: 0;
+  }
+
+  h4 {
+    @include media-breakpoint-down(sm) {
+      padding: 0.5rem;
+      background-color: rgba(129, 191, 226, 0.7);
+    }
+  }
+
   h5 {
     text-align: right;
+
+    @include media-breakpoint-down(sm) {
+      padding: 0.5rem;
+      background-color: rgba(129, 191, 226, 0.7);
+    }
   }
 
   small {
     text-align: right;
+
+    @include media-breakpoint-down(sm) {
+      padding: 0.5rem;
+      background-color: rgba(129, 191, 226, 0.7);
+    }
   }
 }

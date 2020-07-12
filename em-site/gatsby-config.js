@@ -74,6 +74,7 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-breakpoints`,
   ], 
 } 
 

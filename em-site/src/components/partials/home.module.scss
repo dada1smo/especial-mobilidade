@@ -6,6 +6,7 @@
   min-height: 100vh;
   overflow: hidden;
   z-index: 100;
+  background-color: map-get($theme, dark);
 
   .homeVideo {
     width: 100%;
@@ -13,6 +14,13 @@
     position: absolute;
     top: 0;
     left: 0;
+
+    @include media-breakpoint-down(lg) {
+      width: auto;
+      height: 100%;
+      margin-left: 55vw;
+      transform: translate(-50%);
+    }
   }
 
   .overlay {
@@ -25,15 +33,29 @@
     z-index: 10;
     padding: 1rem 2rem;
 
+    @include media-breakpoint-down(sm) {
+      height: 70vh;
+    }
+
     h1 {
       text-align: center;
       color: map-get($theme, secondary);
       position: relative;
+
+      @include media-breakpoint-down(sm) {
+        font-size: 3rem;
+        line-height: 3.25rem;
+      }
     }
 
     h2 {
       text-align: center;
       color: #fff;
+
+      @include media-breakpoint-down(sm) {
+        font-size: 1.75rem;
+        line-height: 2rem;
+      }
     }
 
     .footer {
