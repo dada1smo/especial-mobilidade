@@ -8,7 +8,8 @@
   padding: 0 4rem;
 
   @include media-breakpoint-down(sm) {
-    padding: 0rem;
+    padding: 15rem 0;
+    height: auto;
   }
 
   svg {
@@ -29,7 +30,7 @@
     margin-bottom: 2rem;
 
     @include media-breakpoint-down(sm) {
-      padding: 0.5rem;
+      padding: 0 0.5rem 0.5rem 0.5rem;
       background-color: rgba(129, 191, 226, 0.7);
     }
   }
@@ -42,8 +43,9 @@
   padding: 0 4rem;
 
   @include media-breakpoint-down(sm) {
-    height: 120vh;
+    height: auto;
     padding: 0;
+    margin-bottom: 4rem;
   }
 
   h4 {

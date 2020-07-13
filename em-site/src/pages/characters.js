@@ -10,7 +10,7 @@ import Quote from "../components/partials/quote"
 import Content from "../content/content.yaml"
 import Attached from "../components/maps/_attached"
 
-export default function Home() {
+export default function Characters() {
   return (
     <div>
       <Nav></Nav>

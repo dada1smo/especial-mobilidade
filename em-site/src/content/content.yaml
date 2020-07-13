@@ -47,9 +47,7 @@ s1:
   c8:
     order: 4
     id: s2c4
-    quote: '“Morar a 30 ou 40 km de distância não é tão problemático, porque você gastaria 15 minutos em um sistema eficiente. A questão fundamental é o tempo de deslocamento.”'
-    source: <span class="quote-source">Benny Schvarsberg</span>
-    qualifications: Arquiteto (UFF/RJ), Mestre em Planejamento Urbano e Regional (IPPUR/UFRJ) e Doutor em Sociologia Urbana (UnB).
+    quote: "“Morar a 30 ou 40 km de distância não é tão problemático, porque você gastaria 15 minutos em um sistema eficiente. A questão fundamental é o tempo de deslocamento.”"
 
 s2:
   id: s2
@@ -65,27 +63,25 @@ s2:
     order: 2
     id: s2c2
     content:
-      - '<span class="quote">O ônibus que eu pego para chegar na aula de manhã passa às 6h20 e, depois dele, só passa outro umas cinco ou seis horas depois</span>, reclama a estudante de publicidade da UnB Rebecca Alves Cavalcanti, 19. Ela gasta, aproximadamente, quatro horas diárias no percurso de casa para a universidade.'
+      - '<span class="quote">O ônibus que eu pego para chegar na aula de manhã passa às 6h20 e só passa outro umas cinco ou seis horas depois</span>, reclama a estudante de publicidade da UnB Rebecca Alves Cavalcanti, 19. Ela gasta, aproximadamente, quatro horas diárias no percurso de casa para a universidade.'
 
   c3:
     order: 3
     id: s2c3
     content:
       - 'O doutor em sociologia urbana Benny Schvarsberg afirma com precisão: <span class="quote">Não tem frota na quantidade necessária, nos horários mais importantes, que são os de pico. Nesse período até existe uma maior disponibilidade da frota, mas é pequena em razão da demanda. Então, é ineficaz</span>.'
-      - "Além da baixa frequência dos ônibus, as cidades-satélite não possuem muitas linhas internas, o que dificulta o transporte de ônibus ou metrô para o Plano Piloto. Em outras palavras, há pouca capilaridade, que prejudica ainda mais a mobilidade. Afinal, como chegar ao metrô se você mora distante e não tem carro? Sem um transporte público que o leve até lá fica inviável."
+      - "Além da baixa frequência dos ônibus, as cidades-satélite não possuem muitas linhas internas, o que dificulta o transporte de ônibus ou metrô para o Plano Piloto. Em outras palavras, há pouca capilaridade, o que prejudica ainda mais a mobilidade. Afinal, como chegar ao metrô se você mora distante e não tem carro? Sem um transporte público que o leve até lá fica inviável."
 
   c4:
     order: 4
     id: s2c4
-    quote: '“Pensando no corpo humano, temos veias pequenas que permitem a circulação do sangue na nossa mão e permitem que ela se movimente. Se elas não estivessem funcionando, perderíamos a função do braço. Para ter um braço forte, preciso de dedos que possam pegar as coisas. Os dedos são como os transportes dentro das RAs, que pegam as pessoas para trabalharem e, à noite, fazem o percurso de retorno para casa. Isso é capilaridade.”'
-    source: <span class="quote-source">Pastor Willy</span>
-    qualifications: Coordenador do Centro Interdisciplinar de Estudos em Transportes (Ceftru), engenheiro civil (Universidad Nacional de San Augustin), mestre em transporte urbano (UnB) e doutor em engenharia de transportes (USP).
-
+    quote: "“Pensando no corpo humano, temos veias pequenas que permitem a circulação do sangue na nossa mão e permitem que ela se movimente. Se elas não estivessem funcionando, perderíamos a função do braço. Para ter um braço forte, preciso de dedos que possam pegar as coisas. Os dedos são como os transportes dentro das RAs, que pegam as pessoas para trabalharem e, à noite, fazem o percurso de retorno para casa. Isso é capilaridade.”"
+    
   c5:
     order: 5
     id: s2c5
     content:
-      - "Os moradores que se deslocam todos os dias da periferia para o centro de Brasília enfrentam outro problema — a falta de segurança e infraestrutura. O estudo “Como anda meu ônibus” ilustra a insatisfação dos passageiros. O item mais mal avaliado do questionário foi a lotação dos veículos — 67,23% dos entrevistados avaliaram a quantidade de pessoas no transporte público como “péssima”. Quanto à temperatura e ventilação nos ônibus, 34,34% classificaram como “péssima” e 29,30% como “ruim”."
+      - "Os moradores que se deslocam todos os dias da periferia para o centro de Brasília enfrentam outro problema — a falta de segurança e infraestrutura. O estudo “Como anda meu ônibus” ilustra a insatisfação dos passageiros. O item mais mal avaliado do questionário foi a lotação dos veículos — 67,23% dos entrevistados avaliaram a quantidade de pessoas no transporte público como “péssima”. Quanto à temperatura e ventilação nos ônibus, 34,34% classificaram como “péssima” e 29,30%, como “ruim”."
       - '<span class="quote">Penso que pagamos passagens caras e temos serviço ruim: carros sujos e superlotados. Tenho que me espremer entre os usuários se quiser voltar para casa depois de árduo dia de trabalho. Já fiz várias reclamações em vários órgãos em vão. Total desrespeito ao usuário</span>, escreveu um morador de Planaltina no questionário.'
 
   c6:
@@ -98,19 +94,19 @@ s2:
     order: 7
     id: s2c7
     content:
-      - 'De acordo com o coordenador do Centro Interdisciplinar de Estudos em Transportes (Ceftru), professor Pastor Willy Gonzales, a segurança pública urbana faz parte do sistema de transporte público, mas, no DF, eles andam descolados. <span class="quote">À medida em que eu me sinto seguro para estar na parada, eu vou esperar. Mas, se eu não tenho segurança, vou procurar aplicativo</span>, explica, referindo-se a plataformas como Uber e 99Pop. <span class="quote">Nas regiões mais periféricas, a infraestrutura para o transporte público é deficitária — parada sem iluminação, sem espaço adequado para esperar o veículo, sem baia para o ônibus parar e sem segurança para os passageiros esperarem</span>, acrescenta.'
+      - 'De acordo com o coordenador do Centro Interdisciplinar de Estudos em Transportes (Ceftru), doutor em engenharia de transporte Pastor Willy Gonzales, a segurança pública urbana faz parte do sistema de transporte público, mas, no DF, eles andam descolados. <span class="quote">À medida que eu me sinto seguro para estar na parada, eu vou esperar. Mas, se eu não tenho segurança, vou procurar aplicativo</span>, explica, referindo-se a plataformas como Uber e 99Pop. <span class="quote">Nas regiões mais periféricas, a infraestrutura para o transporte público é deficitária — parada sem iluminação, sem espaço adequado para esperar o veículo, sem baia para o ônibus parar e sem segurança para os passageiros esperarem</span>, acrescenta.'
 
   c8:
-      order: 8
-      id: s2c8
-      content:
-        - 'De acordo com o professor, a falta de capilaridade agrava o problema. <span class="quote">As pessoas que moram longe usam muito o transporte clandestino porque não têm opção. Ano passado, houve muitas mortes por causa disso. Precisamos de capilaridade no início e no final da viagem.</span>'
+    order: 8
+    id: s2c8
+    content:
+      - 'De acordo com o professor, a falta de capilaridade agrava o problema. <span class="quote">As pessoas que moram longe usam muito o transporte clandestino porque não têm opção. Ano passado, houve muitas mortes por causa disso. Precisamos de capilaridade no início e no fim da viagem.</span>'
 
   c9:
     order: 8
     id: s2c8
     content:
-      - "O preço da passagem foi o segundo indicador com pior avaliação na pesquisa “Como anda meu ônibus” — 45,37% dos entrevistados consideram péssimo e 25,87%, ruim. Este ano, houve aumento de 10% nos valores, que começou a valer em 13 de janeiro."
+      - "O preço da passagem foi o segundo indicador com pior avaliação na pesquisa “Como anda meu ônibus” — 45,37% dos entrevistados consideram péssimo e 25,87%, ruim. Este ano, houve aumento de 10% nas tarifas, que começou a valer em 13 de janeiro."
 
   c10:
     order: 9
@@ -127,7 +123,7 @@ s3:
     order: 1
     id: s3c1
     content:
-      - 'Hoje, o DF ocupa a posição de quarta cidade com maior frota de carros por cidadão no Brasil — são 0,54  automóveis por habitante. Muitas pessoas pensam que o planejamento da capital foi o responsável pela grande quantidade de carros. Contudo, essa não era a intenção do Lúcio Costa, projetista de Brasília. De acordo com Marilene Menezes, mestre em Arquitetura e Urbanismo pela UnB, Isso é o resultado de um emaranhado de políticas públicas mal aplicadas. A própria disposição das vias da cidade exemplifica a preferência dada aos carros. <span class="quote">Brasília é uma cidade rodoviarista. Ela é bastante espaçosa para o carro, e o Brasil estava desenvolvendo a fabricação de veículos</span>, explica referindo-se à época da construção da capital.'
+      - 'Hoje, o DF ocupa a posição de quarta cidade com maior frota de carros por cidadão no Brasil — são 0,54  automóveis por habitante. Muitas pessoas pensam que o planejamento da capital foi o responsável pela grande quantidade de carros. Contudo, essa não era a intenção do Lúcio Costa, projetista de Brasília. De acordo com Marilene Menezes, mestre em Arquitetura e Urbanismo pela UnB, isso é o resultado de um emaranhado de políticas públicas mal aplicadas. A própria disposição das vias da cidade exemplifica a preferência dada aos carros. <span class="quote">Brasília é uma cidade rodoviarista. Ela é bastante espaçosa para o carro, e o Brasil estava desenvolvendo a fabricação de veículos</span>, explica referindo-se à época da construção da capital.'
 
   c2:
     order: 2
@@ -135,7 +131,7 @@ s3:
     content:
       - >-
         A pesquisadora também aponta a facilidade de estacionamento como um incentivo ao carro, mas afirma que essa prática é insustentável e só ocorre porque a
-        cidade ainda é jovem. <span class="quote">Atrás da Esplanada dos Ministérios tem terrenos enormes reservados para carros. Isso é um absurdo. Esses terrenos são
+        cidade ainda é jovem. <span class="quote">Atrás da Esplanada dos Ministérios, tem terrenos enormes reservados para carros. Isso é um absurdo. Esses terrenos são
         para o futuro
         da cidade, para prédios, então, uma hora eles vão ter que desaparecer. Ou seja, uma hora o estacionamento vai ter que sair porque um edifício vai ter que ser
         construído naquele lugar</span>, exemplifica.
@@ -146,7 +142,7 @@ s3:
     content:
       - >-
         De acordo com Benny Schavasberg, arquiteto e doutor em Sociologia pela UnB, as obras mais recentes evidenciam o privilégio dado aos carros.
-        <span class="quote">Foi feita uma mudança na saída norte da cidade, que beneficia o carro particular. Não tem espaço seguro para o pedestre e o ciclista, que correm risco de vida</span>, explica. 
+        <span class="quote">Foi feita uma mudança na saída norte da cidade, que beneficia o carro particular. Não tem espaço seguro para o pedestre e o ciclista, que correm risco de vida</span>, explica.
       - >-
         Em Brasília, existem duas formas de cruzar o eixo (via principal que liga todo o Plano Piloto): de carro, através das  tesourinhas, recém-reformadas, e a pé,
         por meio das passagens subterrâneas, que há anos não têm infraestrutura necessária para passagem de pedestres. <span class="quote">Representam risco de vida.
@@ -156,7 +152,7 @@ s3:
 s4:
   id: s4
   title: "A questão do metrô"
-  
+
   c1:
     order: 1
     id: s4c1
@@ -171,10 +167,10 @@ s4:
     id: s4c2
     content:
       - >-
-        Com o tempo, ele passou a contemplar também Águas Claras, Ceilândia e Guará. Privilegiando o sul da cidade.
+        Com o tempo, ele passou a contemplar também Águas Claras, Ceilândia e Guará, privilegiando o sul da cidade.
       - >-
         No planejamento, estava previsto que esse transporte chegaria até a Asa Norte, no entanto, nenhuma gestão levou o projeto adiante.
-  
+
   c3:
     order: 3
     id: s4c3
@@ -183,7 +179,7 @@ s4:
         Desde a aprovação do Programa de Aceleração (PAC) de Mobilidade Urbana, em 2014, existe uma verba destinada às obras da expansão do metrô.
         Embora desde 2016 existam também contratos assinados com a empresa Logit Engenharia (contratada para ficar responsável pela questão),
         nada foi feito para a expansão do metrô, além de estudos.
-  
+
   c4:
     order: 4
     id: s4c4
@@ -196,29 +192,27 @@ s4:
         diz, em nota, o SindMETRO. <span class="quote">Qual a intenção da gestão? A verba do PAC de 2014 ainda está disponível,
         então, se o governo quisesse dar andamento a isso, ele poderia</span>, acrescenta.
       - >-
-        O SindMETRO afirma que a falta de interesse está, ligada a questões empresariais.
+        O SindMETRO afirma que a falta de interesse está ligada a questões empresariais.
         <span class="quote">A gente só vê o governo anunciando e falando de privatização. O governador sempre deixou bem claro que não tem interesse em investir no serviço,
         e sim em entregar para grandes empresários que só visam o lucro, por isso, ele não apresentou nenhum projeto de expansão.</span>
 
   c5:
     order: 5
     id: s4c5
-    question: 'É geograficamente viável o metrô chegar até a Asa Norte?'
+    question: "É geograficamente viável o metrô chegar até a Asa Norte?"
     h1:
-      quote: '“Asa Norte e Asa Sul, de forma geral, são adequadas para a construção de obras subterrâneas.”'
-      source: <span class="quote-source">Newton Moreira de Souza, professor do Departamento de Engenharia Civil e Ambiental da UnB, em entrevista ao Jornal de Brasília</span>
+      quote: "“Asa Norte e Asa Sul, de forma geral, são adequadas para a construção de obras subterrâneas.”"
+      source: <span class="quote-source">Newton Moreira de Souza</span>
+      qualifications: Professor do Departamento de Engenharia Civil e Ambiental da UnB, em entrevista ao Jornal de Brasília.
     h2:
-      quote: '“O metrô não tem condições de passar da rodoviária já que há um declividade no terreno da Asa Norte a partir da quadra 308, diferentemente da Asa Sul, que é toda plana.”'
-      source: <span class="quote-source">Marilene Menezes, arquiteta, estudiosa do trânsito no DF, mestre em Arquitetura e Urbanismo pela UnB./span>
+      quote: "“O metrô não tem condições de passar da rodoviária já que há um declividade no terreno da Asa Norte a partir da quadra 308, diferentemente da Asa Sul, que é toda plana.”"
 
   c6:
     order: 6
     id: s4c6
-    content:
-      - >-
-        <span class="quote">Faça uma comparação com a malha ferroviária de transporte de alguns lugares como Moscou, Londres, Tóquio e compare com a malha de São Paulo
-        (considerada a maior do Brasil), e depois pega a de São Paulo e compare com a do DF. É vergonhoso!</span>, argumenta Luciano Soares Costa da Silva,
-        metroviário desde 1998 e ex-membro do SindMETRO.
+    quote:
+      "“Faça uma comparação com a malha ferroviária de transporte de alguns lugares como Moscou, Londres, Tóquio e compare com a malha de São Paulo
+      (considerada a maior do Brasil), e depois pegue a de São Paulo e compare com a do DF. É vergonhoso!”"
 
 s5:
   id: s5
@@ -231,7 +225,7 @@ s5:
       - >-
         Entender que existem diferentes tipos de transporte para curta, média e longa distância é fundamental na compreensão do que pode ser feito.
         O metrô, por exemplo, é usado para trajetos maiores. Contudo, no DF, ele só atende algumas cidades.
-        As outras, têm apenas ônibus para todos os tipos de deslocamento. Isso pode dificultar a mobilidade. 
+        As outras têm apenas ônibus para todos os tipos de deslocamento. Isso pode dificultar a mobilidade.
 
   c2:
     order: 2
@@ -251,8 +245,8 @@ s5:
         Pastor Willy explica que uma tarifa mais barata para quem usar o transporte público fora do horário de pico pode distribuir
         a quantidade de passageiros em determinados momentos e diminuir a lotação. <span class="quote">No mínimo, podemos trabalhar com
         seis tipos de bilhetes para otimizar o sistema</span>, sugere. <span class="quote">Precisamos que se entenda que o transporte público é integrado,
-        onde bilhete, segurança, infraestrutura, e toda a parte de atratividade para os usuários são integrados</span>, acrescenta.
-  
+        no qual bilhete, segurança, infraestrutura, e toda a parte de atratividade para os usuários são integrados</span>, acrescenta.
+
   c4:
     order: 4
     id: s5c4
@@ -263,22 +257,19 @@ s5:
         Benny Schavasberg concorda e argumenta que é necessário punir os transportes individuais.
         <span class="quote">É cada vez mais inviável. Carros causam muito trânsito. Então, em vez de ter cinco faixas para carros e apenas uma para ônibus,
         o certo seria ter uma só para os automóveis individuais e todo o resto para ônibus e bicicleta. Além disso,
-        o preço elevado do estacionamento é uma boa política, pois os donos desses veículos, terão que pensar duas vezes
+        o preço elevado do estacionamento é uma boa política, pois os donos desses veículos terão que pensar duas vezes
         antes de ir para o trabalho em um transporte individual.</span>
-  
+
   c5:
     order: 5
     id: s5c5
-    question: 'Segrega ou não segrega?'
+    question: "Segrega ou não segrega?"
     h1:
-      quote: '“Ele é segregacionista. O Plano Piloto tem opções melhores do que nas áreas mais distantes. Temos muito mais alternativas, os ônibus são melhores. Isso porque o Plano Piloto é uma região tombada”'
-      source: <span class="quote-source"> Pastor Willy Gonzales Taco - Coordenador do Centro Interdisciplinar de Estudos em Transportes (Ceftru), engenheiro civil pela Universidad Nacional de San Augustin, mestre em transporte urbano pela UnB e doutor em engenharia de transportes pela Escola de Engenharia de São Carlos.</span>
+      quote: "“Ele é segregacionista. O Plano Piloto tem opções melhores do que as áreas mais distantes. Temos muito mais alternativas, os ônibus são melhores. Isso porque o Plano Piloto é uma região tombada.”"
     h2:
-      quote: '“Eu acho que o transporte público de Brasília contribui para segregar porque a distância moradia-trabalho da imensa maioria da população é enorme: 30 ou 40 quilômetros. Isso é um fator de segregação. As pessoas fazem esse deslocamento que é longo, demorado e caro”'
-      source: <span class="quote-source">Benny Schvarsberg- Arquiteto (UFF/RJ, 1982), Mestre em Planejamento Urbano e Regional (IPPUR/UFRJ, 1989) e Doutor em Sociologia Urbana (UnB, 1993).</span>
+      quote: "“Eu acho que o transporte público de Brasília contribui para segregar porque a distância moradia-trabalho da imensa maioria da população é enorme: 30 ou 40 quilômetros. Isso é um fator de segregação. As pessoas fazem esse deslocamento, que é longo, demorado e caro.”"
     h3:
-      quote: '“Eu não gosto da palavra segregação com relação a Brasília e acho que é um preconceito das pessoas. Para mim, isso não existe. As pessoas estão diminuindo Brasília, ela só tem seis décadas. Uma cidade com seis décadas é igual a uma criança, está na hora de começar a se alfabetizar e definir a sua educação”'
-      source: <span class="quote-source">Marilene Menezes, arquiteta, estudiosa do trânsito no DF, mestre em Arquitetura e Urbanismo pela UnB.</span>
+      quote: "“Eu não gosto da palavra segregação com relação a Brasília e acho que é um preconceito das pessoas. Para mim, isso não existe. As pessoas estão diminuindo Brasília, ela só tem seis décadas. Uma cidade com seis décadas é igual a uma criança, está na hora de começar a se alfabetizar e definir a sua educação.”"
 
 s6:
   id: s6
@@ -290,7 +281,7 @@ s6:
     content:
       - >-
         O ano era 1957, e o arquiteto Lúcio Costa havia sido escolhido, por meio de um concurso,
-        para ser o projetista da nova capital do país. As ideias dele tinham como o cerne tornar Brasília uma cidade moderna e
+        para ser o projetista da nova capital do país. As ideias dele tinham como cerne tornar Brasília uma cidade moderna e
         que pudesse ser uma referência arquitetônica para o resto do mundo.
         Nesse projeto, ele também queria fazer da nova capital uma cidade bem integrada, onde fosse fácil se locomover.
         O projetista queria fazer uma cidade na qual ninguém precisasse de carro.
@@ -305,11 +296,11 @@ s6:
         Assim, durante as obras, ele apenas prestou um trabalho de consultor. Por isso, parte do projeto não foi executada da maneira correta.
         O que Lúcio fez foi apenas um plano urbanístico, ou seja, ele planejou o começo da cidade,
         e todo o resto deveria ser feito ao longo dos anos para que Brasília virasse, de fato, uma cidade completa e integrada.
-        Essa divergência entre projeção e construção refletiu na forma como as pessoas se relacionam com o trânsito na cidade nos dias atuais,
-        e na situação do transporte público do Distrito Federal.  
+        Essa divergência entre projeção e construção refletiu na forma como as pessoas se relacionam com o trânsito na cidade nos dias atuais
+        e na situação do transporte público do Distrito Federal.
       - >-
         É importante dizer que Brasília foi inaugurada no começo da década de 60, época em que o Brasil começou a investir bastante na indústria automobilística,
-        mas por incrível que pareça, não eram tantas pessoas que tinham automóveis naquele período.
+        mas, por incrível que pareça, não eram tantas pessoas que tinham automóveis naquele período.
         O aumento dos carros só aconteceu na década de 70, quando Brasília passou a emergir como cidade grande.
         Foi aí que o descaso com o projeto de Lúcio Costa foi evidenciado e começaram os problemas de trânsito.
 
@@ -327,19 +318,19 @@ s6:
       - >-
         O que se viu, durante a história do Distrito Federal, foram políticas que não favoreceram os pedestres nem os usuários dos modais públicos,
         o que tornou o carro o principal meio de locomoção dos moradores do Plano Piloto.
-  
+
   c4:
     order: 4
     id: s6c4
     content:
       - >-
-        <span class="quote">À medida em que a produção de veículos foi crescendo no Brasil, exatamente nos anos 60, o carro foi ficando uma mercadoria mais barata e mais acessível.
+        <span class="quote">À medida que a produção de veículos foi crescendo no Brasil, exatamente nos anos 60, o carro foi ficando uma mercadoria mais barata e mais acessível.
         Enquanto isso, Brasília não ficava preparada para o transporte coletivo, por questões políticas ou questões alheias ao humanismo.
         Ou seja, não se pensava na pessoa humana, no cidadão, e no direito de circular na cidade</span>, explica a arquiteta Marilene Menezes.
       - >-
         Marilene estuda o trânsito de Brasília e defendeu uma tese de mestrado na UnB sobre o impacto das calçadas no transporte público do DF.
         Ela defende a necessidade de Brasília funcionar como uma cidade da qual todos possam usufruir a pé e complementar a vivência com o transporte coletivo.
-        <span class="quote">Esta é uma cidade-parque, mas tudo tem que ser planejado, porque para a pessoa ser usuária do transporte coletivo,
+        <span class="quote">Esta é uma cidade-parque, mas tudo tem que ser planejado, porque, para a pessoa ser usuária do transporte coletivo,
         ela precisa ter uma fita de calçada que conduza até o terminal de ônibus</span>, diz.
         A mestra em arquitetura e urbanismo também reforça que as sucessivas más-gestões têm grande responsabilidade nos problemas encontrados
         na mobilidade urbana de Brasília, porque não seguiram o projeto de Lúcio Costa.
@@ -350,4 +341,19 @@ s6:
     quote: '"O detalhamento do projeto do Lúcio Costa não foi feito por ele. O projetista até acompanhou como consultor, mas o detalhamento foi feito por outras pessoas que não pensaram grande. Lúcio Costa pensou grande."'
     source: <span class="quote-source">Marilene Menezes</span>
 
+quotes:
+  marilene:
+    source: <span class="quote-source">Marilene Menezes</span>
+    qualifications: Arquiteta (UnB), mestre em Arquitetura e Urbanismo (UnB), estudiosa do trânsito no DF.
+  
+  benny:
+    source: <span class="quote-source">Benny Schvarsberg</span>
+    qualifications: Arquiteto (UFF/RJ), Mestre em Planejamento Urbano e Regional (IPPUR/UFRJ) e Doutor em Sociologia Urbana (UnB).
 
+  willy:
+    source: <span class="quote-source"> Pastor Willy Gonzales Taco</span>
+    qualifications: Coordenador do Centro Interdisciplinar de Estudos em Transportes (Ceftru), engenheiro civil (Universidad Nacional de San Augustin), mestre em transporte urbano(UnB) e doutor em engenharia de transportes (USP).
+  
+  luciano:
+    source: <span class="quote-source">Luciano Soares Costa da Silva</span>
+    qualifications: Metroviário desde 1998 e ex-membro do SindMETRO.

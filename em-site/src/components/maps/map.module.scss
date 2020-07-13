@@ -31,7 +31,7 @@
     width: 800px;
 
     @include media-breakpoint-down(md) {
-      width: 100vw;
+      display: none;
     }
   }
 
@@ -74,5 +74,25 @@
         }
       }
     }
+  }
+}
+
+.responsiveContainer {
+  display: none;
+  
+  @include media-breakpoint-down(md) {
+    display: block;
+    width: 100%;
+    margin-bottom: -2rem;
+  }
+}
+
+.quoteImg {
+  display: none;
+  
+  @include media-breakpoint-down(md) {
+    display: block;
+    width: 100%;
+    margin-top: -2rem;
   }
 }

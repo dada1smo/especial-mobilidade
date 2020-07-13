@@ -5,6 +5,7 @@ import navStyles from "./nav.module.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../utils/fontawesome"
 import Content from "../content/content.yaml"
+import { Link } from "gatsby"
 
 function Nav() {
   const { scrollY } = useViewportScroll()
@@ -76,22 +77,48 @@ function Nav() {
         </div>
         <ul>
           <li>
-            <a href="#intro" onClick={toggle}>Introdução</a>
+            <Link to="/" className={navStyles.page} onClick={toggle}>
+              O plano fora do Plano
+            </Link>
           </li>
           <li>
-            <a href="#s2" onClick={toggle}>{Content.s2.title}</a>
+            <Link to="/#intro" onClick={toggle}>
+              Introdução
+            </Link>
           </li>
           <li>
-            <a href="#s3" onClick={toggle}>{Content.s3.title}</a>
+            <Link to="/#s2" onClick={toggle}>
+              {Content.s2.title}
+            </Link>
           </li>
           <li>
-            <a href="#s4" onClick={toggle}>{Content.s4.title}</a>
+            <Link to="/#s3" onClick={toggle}>
+              {Content.s3.title}
+            </Link>
           </li>
           <li>
-            <a href="#s5" onClick={toggle}>{Content.s5.title}</a>
+            <Link to="/#s4" onClick={toggle}>
+              {Content.s4.title}
+            </Link>
           </li>
           <li>
-            <a href="#s6" onClick={toggle}>{Content.s6.title}</a>
+            <Link to="/#s5" onClick={toggle}>
+              {Content.s5.title}
+            </Link>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <Link to="/personagens" className={navStyles.page} onClick={toggle}>
+              Relatos de usuários do Transporte Público do DF
+            </Link>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <Link to="/personagens" className={navStyles.page} onClick={toggle}>
+              Contexto histórico da construção de Brasília
+            </Link>
           </li>
         </ul>
       </motion.div>
