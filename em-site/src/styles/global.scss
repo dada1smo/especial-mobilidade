@@ -122,10 +122,18 @@ footer {
 }
 
 .quote-sub {
-  text-align: center;
-  color: map-get($theme, primary-dark);
-  margin: 0 auto 3rem auto;
+  display: flex;
   width: 100%;
-  text-transform: uppercase;
-  font-weight: 700;
+  align-items: center;
+
+  h5 {
+    text-align: center;
+    background-color: map-get($theme, primary-dark);
+    margin: 0 auto 3rem auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.25rem 1rem;
+    color: map-get($theme, primary-light);
+    display: inline;
+  }
 }
