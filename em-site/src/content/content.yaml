@@ -23,7 +23,7 @@ s1:
     order: 4
     id: s1c4
     content:
-      - "Como o preço do m² nessa região é caro, os trabalhadores, assim como os candangos em 1960, passam o dia no Plano e à noite retornam para suas RA’s, que ficam, em média, a 30 km de distância."
+      - "Como o preço do m² nessa região é caro, a maioria dos trabalhadores, assim como os candangos em 1960, passam o dia no Plano e à noite retornam para suas RA’s, que ficam, em média, a 30 km de distância."
       - "As localidades mais afastadas do “avião”, geralmente, são as mais baratas."
 
   c5:
@@ -194,7 +194,7 @@ s4:
       - >-
         O SindMETRO afirma que a falta de interesse está ligada a questões empresariais.
         <span class="quote">A gente só vê o governo anunciando e falando de privatização. O governador sempre deixou bem claro que não tem interesse em investir no serviço,
-        e sim em entregar para grandes empresários que só visam o lucro, por isso, ele não apresentou nenhum projeto de expansão.</span>
+        e sim em entregar para grandes empresários que só visam ao lucro, por isso, ele não apresentou nenhum projeto de expansão.</span>
 
   c5:
     order: 5
@@ -263,7 +263,8 @@ s5:
   c5:
     order: 5
     id: s5c5
-    question: "Segrega ou não segrega?"
+    question: "Afinal, o transporte público do DF segrega ou não segrega?"
+    sub: "Veja a opinião de especialistas"
     h1:
       quote: "“Ele é segregacionista. O Plano Piloto tem opções melhores do que as áreas mais distantes. Temos muito mais alternativas, os ônibus são melhores. Isso porque o Plano Piloto é uma região tombada.”"
     h2:
@@ -352,7 +353,7 @@ quotes:
 
   willy:
     source: <span class="quote-source"> Pastor Willy Gonzales Taco</span>
-    qualifications: Coordenador do Centro Interdisciplinar de Estudos em Transportes (Ceftru), engenheiro civil (Universidad Nacional de San Augustin), mestre em transporte urbano(UnB) e doutor em engenharia de transportes (USP).
+    qualifications: Coordenador do Centro Interdisciplinar de Estudos em Transportes (Ceftru), mestre em transporte urbano(UnB) e doutor em engenharia de transportes (USP).
   
   luciano:
     source: <span class="quote-source">Luciano Soares Costa da Silva</span>

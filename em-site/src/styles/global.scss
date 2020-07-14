@@ -71,7 +71,7 @@ body {
       h3 {
         text-align: center;
         color: map-get($theme, primary-dark);
-        margin: 0 auto 3rem auto;
+        margin: 0 auto 0.75rem auto;
         width: 100%;
       }
 
@@ -119,4 +119,13 @@ footer {
   &:before {
     content: "—";
   }
+}
+
+.quote-sub {
+  text-align: center;
+  color: map-get($theme, primary-dark);
+  margin: 0 auto 3rem auto;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
 }

@@ -237,6 +237,7 @@ export default function Home() {
           <section className="comparative">
             <div className="third">
               <h3>{Content.s5.c5.question}</h3>
+              <h5 className="quote-sub">{Content.s5.c5.sub}</h5>
               <div className="col">
                 <Quote
                   quote={Content.s5.c5.h1.quote}
